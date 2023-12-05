@@ -14,26 +14,30 @@
 </head>
 
 <body>
-    <header class="l-header" id="header">
-        <div class="navbar container flex">
+    <header id="header">
+        
+            
             <div class="brand">
                 <a href="#"><img src="assests/img/logo.svg" alt="Studio Hair"></a>
             </div>
-            <div class="nav" id="nav">
-                <ul class="nav__menu">
-                    <li class="nav__item"><a href="#" class="nav__link active-link">home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">quem somos</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">serviços</a></li>
-                    <li class="nav__item"><a href="#package" class="nav__link">pacotes</a></li>
-                    <li class="nav__item"><a href="#gallery" class="nav__link">galeria</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">contato</a></li>
+
+            <div id="nav">
+                <ul id="nav__menu">
+                    <li id="option-1" class="nav__item"><a href="#" class="nav__link active-link">home</a></li>
+                    <li id="option-2" class="nav__item"><a href="#about" class="nav__link">sobre</a></li>
+                    <li id="option-3" class="nav__item"><a href="#services" class="nav__link">serviços</a></li>
+                    <li id="option-4" class="nav__item"><a href="#package" class="nav__link">pacotes</a></li>
+                    <li id="option-5" class="nav__item"><a href="#gallery" class="nav__link">galeria</a></li>
+                    <li id="option-6" class="nav__item"><a href="#contact" class="nav__link">contato</a></li>
                 </ul>
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+            <div id="nav-toggle">
+                <div class="litle_bar"></div>
+                <div class="litle_bar"></div>
+                <div class="litle_bar"></div>
             </div>
-        </div>
+        
     </header>
     <main>
         <section class="hero">
@@ -57,20 +61,22 @@
                         <h1>Nossa história</h1>
                         <span>Studio Hair</span>
                     </div>
-                    <div class="about__detail">
-                        <div class="about__detail__content">
-                            <div class="about__img">
-                                <img src="assests/img/about-img.jpg" alt="">
-                            </div>
-                            <div class="about__descripion">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                     Velit possimus a sint.</p>
-                                <p>Obcaecati porro accusamus iusto rem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Velit possimus a sint.</p>
-                                <p>Eligendi nostrum architecto 
-                                    quibusdam. Neque odio enim quasi ad culpa similique 
-                                    quas.</p>
-                            </div>
+                    <div id="about__detail__content">
+
+                        <div class="about__img">
+
+                            <img src="assests/img/about-img.jpg" alt="">
+
+                        </div>
+
+                        <div class="about__descripion">
+
+                            <p>
+
+                                Descubra a beleza que vai além do espelho no nosso exclusivo Salão de Beleza. Somos mais do que um espaço de cuidados estéticos, somos o seu refúgio de transformação e bem-estar. Com uma equipe apaixonada e altamente qualificada, mergulhe em uma experiência única de cuidado pessoal.
+
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -80,8 +86,7 @@
             <div class="services__content">
                 <div class="row">
                     <div class="section__title">
-                        <h1>Serviços</h1>
-                        <span>Que realziamos</span>
+                        <h1>Nossos serviços</h1>
                     </div>
                 </div>
                 <div class="services__content__descripion grid container">
@@ -112,7 +117,7 @@
                     <div class="box">
                         <div class="inner">
                             <img src="assests/img/servicos/corte.png" alt="">
-                            <p>corte de cabelo</p>
+                            <p>corte</p>
                         </div>
                     </div>
                     <div class="box">
@@ -124,7 +129,7 @@
                     <div class="box">
                         <div class="inner">
                             <img src="assests/img/servicos/depilacao.png" alt="">
-                            <p>depiliação com cera</p>
+                            <p>depiliação à cera</p>
                         </div>
                     </div>
                     <div class="box">
@@ -348,22 +353,22 @@
                 <button class="btn">ver mais</button>
             </div>
         </section>
-        <section class="testimonials section">
-            <div class="testimonials__content">
+       
+            <section class="testimonials__content">
                 <div class="row">
                     <div class="section__title">
                         <h1>Depoimentos</h1>
-                        <span>Veja o que nossos clientes tem a dizer</span>
+                        <span>Veja o que nossas clientes tem a dizer</span>
                     </div>
                 </div>
-                <div class="testimonials__card container grid">
+                <div class="testimonials__card ">
                     <div class="testimonials__item flex">
                         <div class="testimonials__img">
-                            <img src="assests/img/depoimentos/depoimento-1.png" alt="">
+                            <img src="assests/img/depoimentos/Beyonce_Dubai.webp" alt="">
                         </div>
                         <div class="testimonials__box">
                             <div class="testimonials__name">
-                                <h1>Celaena</h1>
+                                <h1>Beyoncé</h1>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
@@ -371,18 +376,20 @@
                                 <i class='bx bxs-star star__icon' ></i>
                             </div>
                             <div class="testimonials__descripition">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                                <p>
+                                    Estou encantada com a transformação que tive no salão! A equipe foi super atenciosa e o resultado do meu corte de cabelo ficou incrível. Com certeza voltarei!"
+
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonials__item flex">
                         <div class="testimonials__img">
-                            <img src="assests/img/depoimentos/depoimento-2.png" alt="">
+                            <img src="assests/img/depoimentos/mariah.jpg" alt="">
                         </div>
                         <div class="testimonials__box">
                             <div class="testimonials__name">
-                                <h1>Aelin</h1>
+                                <h1>Mariah</h1>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
@@ -390,18 +397,20 @@
                                 <i class='bx bxs-star star__icon' ></i>
                             </div>
                             <div class="testimonials__descripition">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                                <p>
+                                    Fui muito bem recebida no salão e saí extremamente satisfeita com o serviço prestado. Meu corte ficou perfeito e a atmosfera do lugar é ótima. Recomendo!
+
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonials__item flex">
                         <div class="testimonials__img">
-                            <img src="assests/img/depoimentos/depoimento-1.png" alt="">
+                            <img src="assests/img/depoimentos/Portrait_Taylor_Swift.webp" alt="">
                         </div>
                         <div class="testimonials__box">
                             <div class="testimonials__name">
-                                <h1>Luciana</h1>
+                                <h1>Taylor</h1>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
@@ -409,18 +418,19 @@
                                 <i class='bx bxs-star star__icon' ></i>
                             </div>
                             <div class="testimonials__descripition">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                                <p>
+                                    Que experiência maravilhosa! Fiz uma coloração no cabelo e o resultado foi além do esperado. Profissionais qualificados e um ambiente acolhedor. Voltarei em breve!
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonials__item flex">
                         <div class="testimonials__img">
-                            <img src="assests/img/depoimentos/depoimento-2.png" alt="">
+                            <img src="assests/img/depoimentos/britey.jpg" alt="">
                         </div>
                         <div class="testimonials__box">
                             <div class="testimonials__name">
-                                <h1>Patricia</h1>
+                                <h1>Britney</h1>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
                                 <i class='bx bxs-star star__icon' ></i>
@@ -428,14 +438,15 @@
                                 <i class='bx bxs-star star__icon' ></i>
                             </div>
                             <div class="testimonials__descripition">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                                <p>
+                                    Adorei o tratamento que recebi no salão. Fui bem cuidada durante todo o procedimento de manicure e pedicure. Equipe super gentil e competente. Super recomendo!
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+       
     </main>
     <footer class="footer" id="contact">
         <div class="footer__list section container grid">
@@ -461,9 +472,7 @@
                 <p>(11) 4141-4141</p>
             </div>
         </div>
-        <div class="copy">
-            <p>&copy Todos os direitos reservados</p>
-        </div>
+        
     </footer>
     <!-- javascript -->
     <script src="assests/js/style.js"></script>
